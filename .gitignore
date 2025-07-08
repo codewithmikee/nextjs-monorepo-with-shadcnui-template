@@ -1,0 +1,59 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Testing
+coverage
+
+# Turbo
+.turbo
+
+# Vercel
+.vercel
+
+# Build Outputs
+.next/
+out/
+build
+dist
+
+# pnpm
+.pnpm-store
+
+# VSCode
+.vscode/
+
+# TypeScript build info
+*.tsbuildinfo
+
+# ESLint cache
+.eslintcache
+
+# Yarn (if ever used)
+yarn.lock
+yarn-error.log
+
+# Debug
+npm-debug.log*
+
+# Misc
+.DS_Store
+*.pem
+
+# UI package build output
+packages/ui/dist/
+
+# Ignore generated JS, d.ts, and map files in src (cleanup after moving build output)
+packages/ui/src/**/*.js
+packages/ui/src/**/*.d.ts
+packages/ui/src/**/*.d.ts.map
